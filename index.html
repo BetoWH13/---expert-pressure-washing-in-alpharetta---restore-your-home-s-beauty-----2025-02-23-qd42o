@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +15,42 @@
     <meta name="description" content="Alpharetta's premier pressure washing service. Professional cleaning for homes & driveways. Fast, affordable, and expert service guaranteed.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 antialiased">
     <!-- Header -->
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">
+                <a href="https://BetoWH13.github.io/---expert-pressure-washing-in-alpharetta---restore-your-home-s-beauty-----2025-02-23-qd42o" 
+                   class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     AlphaWash
-                </div>
+                </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="hover:text-blue-400 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About Us</a>
                     <a href="#faq" class="hover:text-blue-400 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
                 </div>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
                 <a href="https://leads.leadsmartinc.com/?api_key=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=albertowaizel1&category=&funnel=3&buttons=btn-success&step=1" 
-                   class="hidden md:block px-6 py-2 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full font-semibold hover:scale-105 transition-transform duration-300">
+                   class="hidden md:block px-6 py-2 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25">
+                    Get Quote
+                </a>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 hover:text-blue-400 transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block py-2 hover:text-blue-400 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 hover:text-blue-400 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 hover:text-blue-400 transition-colors duration-300">About Us</a>
+                <a href="#faq" class="block py-2 hover:text-blue-400 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 hover:text-blue-400 transition-colors duration-300">Contact</a>
+                <a href="https://leads.leadsmartinc.com/?api_key=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=albertowaizel1&category=&funnel=3&buttons=btn-success&step=1" 
+                   class="block mt-4 px-6 py-2 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full font-semibold text-center hover:scale-105 transition-transform duration-300">
                     Get Quote
                 </a>
             </div>
@@ -31,8 +58,9 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-gray-900"></div>
+    <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden" 
+             style="background-image: url('https://images.unsplash.com/photo-1580541631971-c75ce1a51754?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-900/80 to-gray-900/90"></div>
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center max-w-4xl mx-auto" data-aos="fade-up">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
@@ -40,12 +68,19 @@
                     <span class="block text-blue-400">Restore Your Home's Beauty!</span>
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-8">
-                    Alpharetta's #1 Pressure Washing – Sparkling Clean Homes!
+                    Transform your property with Alpharetta's most trusted pressure washing service. 
+                    Professional results, competitive pricing, and satisfaction guaranteed.
                 </p>
-                <a href="https://leads.leadsmartinc.com/?api_key=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=albertowaizel1&category=&funnel=3&buttons=btn-success&step=1" 
-                   class="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full text-lg font-semibold hover:scale-105 transition-transform duration-300 shadow-lg">
-                    Get Your Free Quote Today
-                </a>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="https://leads.leadsmartinc.com/?api_key=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=albertowaizel1&category=&funnel=3&buttons=btn-success&step=1" 
+                       class="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full text-lg font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25">
+                        Get Your Free Quote Today
+                    </a>
+                    <a href="#features" 
+                       class="inline-block px-8 py-4 bg-gray-800 rounded-full text-lg font-semibold hover:bg-gray-700 transition-all duration-300 border border-gray-700 hover:border-gray-600">
+                        Learn More
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -57,20 +92,20 @@
                 Premium Cleaning Services
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition-transform duration-300 shadow-xl" data-aos="fade-up">
+                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-blue-500/10" data-aos="fade-up">
                     <div class="text-blue-400 text-4xl mb-4">🏠</div>
                     <h3 class="text-xl font-semibold mb-4">Deep Clean for Homes</h3>
-                    <p class="text-gray-400">Professional exterior cleaning that removes years of dirt and grime.</p>
+                    <p class="text-gray-400">Professional exterior cleaning that removes years of dirt, mold, and mildew. Restore your home's original beauty with our advanced cleaning techniques.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition-transform duration-300 shadow-xl" data-aos="fade-up" data-aos-delay="100">
+                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-blue-500/10" data-aos="fade-up" data-aos-delay="100">
                     <div class="text-blue-400 text-4xl mb-4">🚗</div>
                     <h3 class="text-xl font-semibold mb-4">Driveway Excellence</h3>
-                    <p class="text-gray-400">Restore your driveway to its original glory with our specialized cleaning.</p>
+                    <p class="text-gray-400">Transform your driveway from stained and weathered to spotless and inviting. Our specialized cleaning process removes oil stains, tire marks, and ground-in dirt.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition-transform duration-300 shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                <div class="bg-gray-900 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-blue-500/10" data-aos="fade-up" data-aos-delay="200">
                     <div class="text-blue-400 text-4xl mb-4">⚡</div>
                     <h3 class="text-xl font-semibold mb-4">Fast & Affordable</h3>
-                    <p class="text-gray-400">Quick service without compromising on quality or breaking the bank.</p>
+                    <p class="text-gray-400">Experience efficient service without compromising quality. We offer competitive rates and quick turnaround times to fit your schedule and budget.</p>
                 </div>
             </div>
         </div>
@@ -80,37 +115,97 @@
     <section id="benefits" class="py-24 bg-gray-900">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">
-                Why Choose Us?
+                Why Choose AlphaWash?
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-                <div class="flex items-start space-x-4" data-aos="fade-right">
-                    <div class="text-blue-400 text-2xl">✨</div>
+                <div class="flex items-start space-x-4 group" data-aos="fade-right">
+                    <div class="text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300">✨</div>
                     <div>
-                        <h3 class="text-xl font-semibold mb-2">Boost Curb Appeal</h3>
-                        <p class="text-gray-400">Transform your property's appearance instantly with our professional cleaning.</p>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors duration-300">Enhanced Curb Appeal</h3>
+                        <p class="text-gray-400">Instantly boost your property's value and appearance with our professional cleaning services. Perfect for homeowners looking to sell or simply maintain their investment.</p>
                     </div>
                 </div>
-                <div class="flex items-start space-x-4" data-aos="fade-left">
-                    <div class="text-blue-400 text-2xl">🛡️</div>
+                <div class="flex items-start space-x-4 group" data-aos="fade-left">
+                    <div class="text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300">🛡️</div>
                     <div>
-                        <h3 class="text-xl font-semibold mb-2">Prevent Damage</h3>
-                        <p class="text-gray-400">Protect your investment by removing harmful buildup and preventing deterioration.</p>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors duration-300">Preventive Maintenance</h3>
+                        <p class="text-gray-400">Regular cleaning prevents costly repairs by removing harmful substances that can damage your property over time. Save thousands in potential repair costs.</p>
                     </div>
                 </div>
-                <div class="flex items-start space-x-4" data-aos="fade-right">
-                    <div class="text-blue-400 text-2xl">👨‍💼</div>
+                <div class="flex items-start space-x-4 group" data-aos="fade-right">
+                    <div class="text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300">👨‍💼</div>
                     <div>
-                        <h3 class="text-xl font-semibold mb-2">Expert Service</h3>
-                        <p class="text-gray-400">Trained professionals using the latest equipment and techniques.</p>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors duration-300">Professional Expertise</h3>
+                        <p class="text-gray-400">Our certified technicians use state-of-the-art equipment and eco-friendly cleaning solutions to deliver superior results while protecting your property.</p>
                     </div>
                 </div>
-                <div class="flex items-start space-x-4" data-aos="fade-left">
-                    <div class="text-blue-400 text-2xl">⭐</div>
+                <div class="flex items-start space-x-4 group" data-aos="fade-left">
+                    <div class="text-blue-400 text-2xl group-hover:scale-110 transition-transform duration-300">⭐</div>
                     <div>
-                        <h3 class="text-xl font-semibold mb-2">Satisfaction Guaranteed</h3>
-                        <p class="text-gray-400">We're not happy until you're completely satisfied with our work.</p>
+                        <h3 class="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors duration-300">100% Satisfaction Guarantee</h3>
+                        <p class="text-gray-400">If you're not completely satisfied with our work, we'll make it right. Our commitment to excellence ensures your complete satisfaction.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">
+                What Our Clients Say
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300 shadow-xl" data-aos="fade-up">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-gray-400 mb-4">"Amazing transformation of our driveway! The team removed years of oil stains and grime. It looks brand new!"</p>
+                    <div class="mt-4">
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-500">Homeowner in Alpharetta</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300 shadow-xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-gray-400 mb-4">"Professional, punctual, and thorough. The difference in our home's appearance is remarkable. Highly recommend!"</p>
+                    <div class="mt-4">
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-500">Real Estate Agent</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300 shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-gray-400 mb-4">"Outstanding service! They cleaned our entire house exterior and deck. The results exceeded our expectations."</p>
+                    <div class="mt-4">
+                        <p class="font-semibold">Emily Rodriguez</p>
+                        <p class="text-sm text-gray-500">Property Manager</p>
+                    </div>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300 shadow-xl" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                    <p class="text-gray-400 mb-4">"Best pressure washing service in Alpharetta! Fair pricing and exceptional results. Will use again!"</p>
+                    <div class="mt-4">
+                        <p class="font-semibold">David Thompson</p>
+                        <p class="text-sm text-gray-500">Business Owner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16" data-aos="fade-up">
+                About AlphaWash
+            </h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-300 leading-relaxed" data-aos="fade-up">
+                    Founded in 2015, AlphaWash began with a simple mission: to provide Alpharetta homeowners with superior pressure washing services at competitive prices. What started as a small family business has grown into the area's most trusted cleaning service, thanks to our unwavering commitment to quality and customer satisfaction.
+                </p>
+                <p class="text-gray-300 leading-relaxed" data-aos="fade-up" data-aos-delay="100">
+                    Our core values of integrity, excellence, and reliability guide everything we do. We believe in using eco-friendly cleaning solutions, investing in the latest equipment, and continuously training our team to deliver the best results. Our success is measured not just by clean surfaces, but by the smiles on our customers' faces.
+                </p>
             </div>
         </div>
     </section>
@@ -122,35 +217,51 @@
                 Frequently Asked Questions
             </h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-gray-900 rounded-xl p-6" data-aos="fade-up">
+                <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up">
                     <h3 class="text-xl font-semibold mb-4">How long does a typical cleaning take?</h3>
-                    <p class="text-gray-400">Most residential jobs are completed within 2-4 hours, depending on the size and condition of the area.</p>
+                    <p class="text-gray-400">Most residential jobs are completed within 2-4 hours, depending on the size and condition of the area. We work efficiently while ensuring thorough cleaning of every surface.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-6" data-aos="fade-up">
-                    <h3 class="text-xl font-semibold mb-4">Is pressure washing safe for all surfaces?</h3>
-                    <p class="text-gray-400">We adjust our cleaning methods and pressure levels based on the surface type to ensure safe and effective cleaning.</p>
+                <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-4">What cleaning solutions do you use?</h3>
+                    <p class="text-gray-400">We use professional-grade, eco-friendly cleaning solutions that are tough on dirt but gentle on your property and the environment. All our products are biodegradable and safe for plants and pets.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-6" data-aos="fade-up">
+                <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up">
                     <h3 class="text-xl font-semibold mb-4">Do you provide free estimates?</h3>
-                    <p class="text-gray-400">Yes! We offer free, no-obligation quotes for all our services.</p>
+                    <p class="text-gray-400">Yes! We offer comprehensive, no-obligation quotes for all our services. Our estimates include a detailed breakdown of costs and recommended services based on your property's needs.</p>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-4">What areas do you service?</h3>
+                    <p class="text-gray-400">We primarily serve Alpharetta and surrounding areas including Milton, Roswell, and Johns Creek. Contact us to confirm service availability in your location.</p>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-4">Are you insured and licensed?</h3>
+                    <p class="text-gray-400">Yes, we are fully insured and licensed. We carry comprehensive liability insurance and workers' compensation coverage for your peace of mind.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-gradient-to-r from-blue-900 to-gray-900">
+    <section class="py-24 bg-gradient-to-r from-blue-900 to-gray-900" 
+             style="background-image: url('https://images.unsplash.com/photo-1558449028-b53a39d100fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; background-blend-mode: overlay;">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl md:text-4xl font-bold mb-8" data-aos="fade-up">
                 Ready to Transform Your Property?
             </h2>
-            <p class="text-xl text-gray-300 mb-8" data-aos="fade-up">
-                Get your free quote today and see the difference professional cleaning can make!
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto" data-aos="fade-up">
+                Join hundreds of satisfied customers who have discovered the AlphaWash difference. 
+                Get your free quote today and see how we can restore your property's beauty!
             </p>
-            <a href="https://leads.leadsmartinc.com/?api_key=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=albertowaizel1&category=&funnel=3&buttons=btn-success&step=1" 
-               class="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full text-lg font-semibold hover:scale-105 transition-transform duration-300 shadow-lg" data-aos="fade-up">
-                Schedule Your Cleaning
-            </a>
+            <div class="flex flex-col sm:flex-row justify-center gap-4" data-aos="fade-up">
+                <a href="https://leads.leadsmartinc.com/?api_key=eccf565586cda416df8b89f66df641fee9a1bcb8&affiliate_source=albertowaizel1&category=&funnel=3&buttons=btn-success&step=1" 
+                   class="inline-block px-8 py-4 bg-gradient-to-r from-blue-500 to-teal-400 rounded-full text-lg font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25">
+                    Schedule Your Cleaning
+                </a>
+                <a href="#contact" 
+                   class="inline-block px-8 py-4 bg-gray-800/80 rounded-full text-lg font-semibold hover:bg-gray-700/80 transition-all duration-300 border border-gray-700 hover:border-gray-600">
+                    Contact Us
+                </a>
+            </div>
         </div>
     </section>
 
@@ -169,16 +280,20 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Services</h3>
                     <ul class="text-gray-400 space-y-2">
-                        <li>House Washing</li>
-                        <li>Driveway Cleaning</li>
-                        <li>Deck & Patio Cleaning</li>
+                        <li class="hover:text-blue-400 transition-colors duration-300">House Washing</li>
+                        <li class="hover:text-blue-400 transition-colors duration-300">Driveway Cleaning</li>
+                        <li class="hover:text-blue-400 transition-colors duration-300">Deck & Patio Cleaning</li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Legal</h3>
                     <ul class="text-gray-400 space-y-2">
-                        <li>Privacy Policy</li>
-                        <li>Terms of Service</li>
+                        <li><a href="https://BetoWH13.github.io/---expert-pressure-washing-in-alpharetta---restore-your-home-s-beauty-----2025-02-23-qd42o/privacy.html" 
+                              class="hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://BetoWH13.github.io/---expert-pressure-washing-in-alpharetta---restore-your-home-s-beauty-----2025-02-23-qd42o/terms.html" 
+                              class="hover:text-blue-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://BetoWH13.github.io/---expert-pressure-washing-in-alpharetta---restore-your-home-s-beauty-----2025-02-23-qd42o/blog.html" 
+                              class="hover:text-blue-400 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -194,6 +309,35 @@
             duration: 1000,
             once: true
         });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
     </script>
+</body>
 </body>
 </html>
